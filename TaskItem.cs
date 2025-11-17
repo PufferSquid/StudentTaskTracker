@@ -30,7 +30,7 @@ namespace StudentTaskTracker
         public override string ToString()
         {
             string status = IsCompleted ? "[Complete]" : "[Incomplete]";
-            return $"{status} {Title} - {Description}";
+            return $"=={Title} {Id}==\n {Description}\n Task Status:{status}";
         }
     }
 }
